@@ -62,15 +62,15 @@
 	<p>Sign up below!</p>
 	<form>
 		<label  for="name">Your Name:</label>
-		<input type="text" id="name" name="name">
+		<input type="text" id="name" name="name" required>
 		<label for="email">Your Email:</label>
-		<input type="email" id="email" name="email">
+		<input type="email" id="email" name="email" required>
 		<label for="time">Choose Day And Time:</label>
-		<select id="time">
+		<select id="time" required>
 			<option value="Friday">Friday, 6:30pm</option>
 			<option value="Monday">Monday, 6:30pm</option>
 		</select>
-		<input type="submit" value="Submit">
+		<input type="submit" value="Submit" required>
 	</form>
 
 	<!-- Online Learning-->
@@ -97,7 +97,7 @@
   </section>
   <section id="contact">
 	<h2>Contact Us</h2>
-	<p><p>If you have any questions or would like to reach out, feel free to contact us through any of the following means:</p></p>
+	<p>If you have any questions or would like to reach out, feel free to contact us through any of the following means:</p>
 
 	<!-- Contact form -->
 	<form>
