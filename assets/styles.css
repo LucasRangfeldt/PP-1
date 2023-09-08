@@ -14,8 +14,23 @@ header {
 
 } 
 
+
 .nav-bar {
     background-color: #00ABE4;
     color: #333;
     overflow: hidden;
+}
+
+.nav-bar a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+    color: black;
 }
