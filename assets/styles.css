@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    background-color: #cce0f7;
+}
+
+header {
+    background-color: #cce0f7;
+    color: #333;
+    text-align: center;
+    padding: 1em;
+
+} 
+
+.nav-bar {
+    background-color: #00ABE4;
+    color: #333;
+    overflow: hidden;
+}
