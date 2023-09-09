@@ -16,10 +16,14 @@ h1, h2, h3 {
 }
 
 header {
+    padding-top: 20px;
     background-color: #cce0f7;
     color: #333;
     text-align: center;
     letter-spacing: 1px;
+}
+#paragraph-header {
+    padding: 10px;
 } 
 
 
@@ -29,6 +33,7 @@ header {
     overflow: hidden;
     width: 100%;
     position: relative;
+    letter-spacing: 1px;
 }
 
 .nav-bar a {
