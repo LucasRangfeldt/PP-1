@@ -8,14 +8,17 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
-    background-color: #cce0f7;
+    background-color: #151a2936;
 }
-/* general header stylings */
+
+    /* general header stylings */
 h1, h2, h3 {
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
 }
-/* header style */
+    /* header style */
 header {
     padding-top: 30px;
     background-color: #cce0f7;
@@ -23,12 +26,12 @@ header {
     text-align: center;
     letter-spacing: 1px;
 }
-/* paragraph in header needed some padding */
+    /* paragraph in header needed some padding */
 #paragraph-header {
     padding: 20px;
 } 
 
-/* nav bar style */
+    /* nav bar style */
 .nav-bar {
     background-color: #00ABE4;
     color: #333;
@@ -37,7 +40,7 @@ header {
     position: relative;
     letter-spacing: 1px;
 }
-/* nav bar links style */
+    /* nav bar links style */
 .nav-bar a {
     float: left;
     display: block;
@@ -47,7 +50,28 @@ header {
     text-decoration: none;
     
 }
-/* changes the background-color of the link to cyan when hover */
+
+    /* changes the background-color of the link to cyan when hover */
 .nav-bar a:hover {
     background-color: cyan;
+}
+
+    /* General section styling that will apply to ALL sections */
+.section-style {
+    border: 2px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+    /* Main section styling*/
+.main-header-text {
+    padding: 10px;
+
+}
+ul {
+    list-style-type: none;
+}
+li {
+    padding: 5px;
 }
