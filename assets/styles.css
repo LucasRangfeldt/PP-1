@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
@@ -6,12 +11,15 @@ body {
     background-color: #cce0f7;
 }
 
+h1, h2, h3 {
+    letter-spacing: 1px;
+}
+
 header {
     background-color: #cce0f7;
     color: #333;
     text-align: center;
-    padding: 1em;
-
+    letter-spacing: 1px;
 } 
 
 
@@ -19,6 +27,8 @@ header {
     background-color: #00ABE4;
     color: #333;
     overflow: hidden;
+    width: 100%;
+    position: relative;
 }
 
 .nav-bar a {
@@ -28,9 +38,9 @@ header {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 
 .nav-bar a:hover {
-    text-decoration: underline;
-    color: black;
+    background-color: cyan;
 }
