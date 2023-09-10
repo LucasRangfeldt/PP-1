@@ -71,22 +71,34 @@ header {
 
 /* Main section styling */
 .main-header-text {
-    padding: 10px;
+    padding: 5px;
+    background-color: lightgray;
 
+}
+#header-p {
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 ul {
     list-style-type: none;
 }
+
 .labels {
     padding: 5px;
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
 li {
     padding: 5px;
+    font-size: 18px;
 }
 
 /* Main images */
+#image-header {
+    background-color: lightgrey;
+    margin-bottom: 10px;
+    padding: 5px;
+}
 .main-images {
     display: flex;
     justify-content: space-between;
