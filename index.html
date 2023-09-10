@@ -13,7 +13,9 @@
 <body>
 	<!-- Header and Nav Bar -->
   <header>
-    	<h1>Welcome To ThePCblueprint <i class="fa-solid fa-desktop"></i></h1>
+		<div id ="first-h1">
+    	<h1 id="first-h1">Welcome To ThePCblueprint <i class="fa-solid fa-desktop"></i></h1>
+		</div>
 		<div id="paragraph-header">
     		<p>Master skills, from the basics to advanced, with our variety of courses.</p>
 		</div>
@@ -28,19 +30,19 @@
 	</div>
   <!-- Main Section -->
   <section id="main" class="section-style">
-	<div class="main-header-text">
+	<div class="header2-text">
     <h2>Why should you even learn this stuff?</h2>
-    <p id="header-p">It's no secret that building your own PC can save you money. But the benefits don't stop at your wallet.</p>
+    <p class="h2-paragraphs">It's no secret that building your own PC can save you money. But the benefits don't stop at your wallet.</p>
 	</div>
     <ul>
-	  <label for="quality" class="labels">Quality</label>
-      <li id="quality" name="quality">Choose quality components. <em>(Note: Good cooling is often lacking in pre-built PCs!)</em></li>
-	  <label for="custom" class="labels">Customization and Design</label>
-      <li id="custom" name="custom">Tailor the PC to fit your specific needs, at the same time you can give it the looks you always dreamt about</li>
-	  <label for="upgrade" class="labels">Upgradeability</label>
+	  <label for="quality" class="labels">Quality:</label>
+      <li id="quality" name="quality">Choose quality components. <em>(Note: Good cooling is often lacking in pre-built PCs!).</em></li>
+	  <label for="custom" class="labels">Customization and Design:</label>
+      <li id="custom" name="custom">Tailor the PC to fit your specific needs, at the same time you can give it the looks you always dreamt about.</li>
+	  <label for="upgrade" class="labels">Upgradeability:</label>
       <li id="upgrade" name="upgrade">Easier to upgrade individual components in the future, rather than buying a brand new one.</li>
-	  <label for="cost" class="labels">Cost-Efficiency</label>
-      <li id="cost" name="cost">This is where quality control comes in! You can cheap out here and there, without affecting the performance <em>you</em> need.</li>
+	  <label for="cost" class="labels">Cost-Efficiency:</label>
+      <li id="cost" name="cost">This is where it gets interesting! You can cheap out here and there, without affecting the performance <em>you</em> need.</li>
     </ul>
 	<h2 id="image-header">I mean, look at these beauties <i class="fa-regular fa-heart"></i></h2>
 	<div class="main-images">
@@ -58,15 +60,23 @@
   </section>
   <!-- Essentials For PC -->
   <section id="essentials" class="section-style">
+	<div class="header2-text">
 	<h2>The Essentials</h2>
-	<p>Building a PC may seem like a hassle, but it's really simple when you break it down to its essential components!</p>
+	<p class="h2-paragraphs">Building a PC may seem like a hassle, but it's really simple when you break it down to its essential components!</p>
+	</div>
 	<ul>
-		<li>Processor (CPU): The "brain" of the computer.</li>
-		<li>Motherboard: The main circuit board that connects all components.</li>
-		<li>Graphics Card (GPU): Necessary for gaming and video editing.</li>
-		<li>RAM: Random Access Memory for temporary data storage while the computer is working.</li>
-		<li>Storage: Hard Drive (HDD) or Solid State Drive (SSD) to store permanent data.</li>
-		<li>Power Supply Unit (PSU): Provides electricity to the PC.</li>
+		<label for="cpu" class="labels">Processor (CPU):</label>
+		<li id="cpu" name="cpu">The "brain" of the computer.</li>
+		<label for="mb" class="labels">Motherboard:</label>
+		<li id="mb" name="mb">The main circuit board that connects all components.</li>
+		<label for="gpu" class="labels">Graphics Card (GPU):</label>
+		<li id="gpu" name="gpu">Necessary for gaming and video editing.</li>
+		<label for="ram" class="labels">Random Access Memory (RAM):</label>
+		<li id="ram" name="ram">Random Access Memory for temporary data storage while the computer is working.</li>
+		<label for="storage" class="labels">Hard Drive Or Solid State Drive:</label>
+		<li id="storage" name="storage">HDDs are mechanical disks to store permanent data, SSDs are microchips with working memory to store data, no mechanical parts.</li>
+		<label for="psu" class="labels">Power Supply Unit (PSU):</label>
+		<li id="psu" id="psu">Provides electricity to the PC, very important not to cheap out on.</li>
 	</ul>
 
   </section>
