@@ -77,6 +77,11 @@ header {
 ul {
     list-style-type: none;
 }
+.labels {
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
 li {
     padding: 5px;
 }
