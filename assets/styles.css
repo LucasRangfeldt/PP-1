@@ -67,12 +67,11 @@ header {
 
 /* General section styling that will apply to ALL sections */
 .section-style {
-    border: 2px;
-    padding: 20px;
+    padding: 2rem;
     margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background: #495B8C;
-    color: #ffffff;
+    background-color: #f2f2f2;
+    color: #333333;
     border: 2px solid #0E1B40;
     border-radius: 10px;
 }
@@ -82,22 +81,26 @@ header {
     padding: 5px;
     margin-bottom: 10px;
     font-size: 1.1em;
+    color: #008080;
 
 }
 .h2-paragraphs {
     margin-top: 5px;
     margin-bottom: 10px;
+    color: #333333;
 }
+/* list styling for all lists */
 ul {
-    list-style-type: none;
+    list-style-type: circle;
+    margin-left: 2rem;
 }
-/* labels for reasons to learn */
-.labels {
+/* labels for all lists */
+.labels, h2 {
     margin-top: 3px;
     font-family: 'Oswald', sans-serif;
     font-size: 24px;
     padding: 5px;
-    color: #40320E;
+    color: #008080;
 }
 
 li {
@@ -106,12 +109,6 @@ li {
 }
 
 /* Main images */
-#image-header {
-    margin: 20px 5px 20px 0;
-    padding: 5px 5px 5px 5px;
-    
-    border-radius: 10px;
-}
 .main-images {
     display: flex;
     justify-content: space-between;
