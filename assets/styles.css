@@ -109,7 +109,16 @@ header {
         padding-bottom: 40%;
         object-fit: contain;
     }
-    
+    div.trivia-images {
+        display: block;
+        width: 100%;
+    }
+    div.trivia-container {
+        width: 100%;
+        height: auto;
+        padding-bottom: 35%;
+        object-fit: cover;
+    }
 }
 
 /* General section styling that will apply to ALL sections */
@@ -152,7 +161,7 @@ li {
 
 .image-container {
     width: 32%;
-    padding-bottom: 30%;
+    padding-bottom: 20%;
     position: relative;
 }
 
@@ -199,7 +208,7 @@ span.item-text {
 .trivia-container {
     position: relative;
     width: 32%;
-    padding-bottom: 30%;
+    padding-bottom: 20%;
 }
 .trivia-container img {
     position: absolute;
@@ -290,6 +299,19 @@ span.item-text {
     border-radius: 4px;
     margin: 0 0 0.5em 0;
 }
+
+/* This is PCB */
+#about {
+    font-size: 120%;
+    
+}
+#about-head {
+    text-align: center;
+}
+.about-p {
+    margin: 0 0 2em 0;
+}
+/* footer styling */
 footer {
     width: 100%;
     display: flex;
