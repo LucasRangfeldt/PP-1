@@ -13,7 +13,7 @@ body {
     line-height: 1.5;
     background-color: #F5FCFF;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
 }
 
@@ -23,6 +23,7 @@ h1, h2, h3 {
     text-transform: capitalize;
     font-family: 'Oswald', sans-serif;
     font-weight: lighter;
+    margin: 0;
 }
 
 /* header style */
@@ -73,7 +74,7 @@ header {
 }
 .section-style {
     padding: 16px;
-    margin: 4em;
+    margin: 2em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f2f2f2;
     color: #333333;
@@ -81,28 +82,26 @@ header {
     border-radius: 10px;
 }
 
-/* Main section styling */
+/* all h2 styling */
 .header2-text {
-    font-size: 1.1em;
-    color: #008080;
-    
+    margin: 0 auto;
 
 }
+
 .h2-paragraphs {
-    margin-top: 0.25em;
-    margin-bottom: 2em;
     color: #333333;
+    margin: 0 0 1em 0;
 }
 /* list styling for all lists */
 ul {
-    list-style-type: circle;
-    margin: auto;
+    list-style-type: none;
+    margin: 0 auto;
 }
 
 li {
-    margin: 1em;
-    font-size: 1.2em;
+    margin-bottom: 0.5em;
 }
+
 
 /* Main images */
 .main-images {
@@ -153,6 +152,7 @@ li {
     object-fit: cover;
 }
 /* Trivia section */
+
 .trivia-container {
     position: relative;
     flex-basis: 80%;
@@ -165,6 +165,43 @@ li {
     max-height: 750px;
     object-fit: cover;
 }
+/* Courses section */
+.course-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.course-card {
+    flex: 1;
+    margin: 16px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+#form-header {
+   margin: 0 0 0.5em 0;
+}
+/* Form style*/
+#course-form label,
+#course-form input,
+#course-form select {
+    display: block;
+    margin: 0 0 0.5em 0;
+    padding: 0.2em;
+    width: 100%;
+}
+
+#course-form input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
 
 /* Online Learning */
 .creators, h3, p {
