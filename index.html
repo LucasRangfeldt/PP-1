@@ -14,7 +14,7 @@
     <!-- Header and Nav Bar -->
     <header>
       <div id ="first-h1">
-        <h1 id="first-h1">Welcome To ThePCblueprint <i class="fa-solid fa-desktop"></i></h1>
+        <h1>Welcome To ThePCblueprint <i class="fa-solid fa-desktop"></i></h1>
       </div>
       <div id="paragraph-header">
         <p>Master skills, from the basics to advanced, with our variety of courses.</p>
@@ -36,14 +36,10 @@
           <p class="h2-paragraphs">It's no secret that building your own PC can save you money. But the benefits don't stop at your wallet.</p>
         </div>
         <ul>
-          <label for="quality" class="labels">Quality:</label>
-          <li id="quality" name="quality">Choose quality components. <em>(Note: Good cooling is often lacking in pre-built PCs!).</em></li>
-          <label for="custom" class="labels">Customization and Design:</label>
-          <li id="custom" name="custom">Tailor the PC to fit your specific needs, at the same time you can give it the looks you always dreamt about.</li>
-          <label for="upgrade" class="labels">Upgradeability:</label>
-          <li id="upgrade" name="upgrade">Easier to upgrade individual components in the future, rather than buying a brand new one.</li>
-          <label for="cost" class="labels">Cost-Efficiency:</label>
-          <li id="cost" name="cost">This is where it gets interesting! You can cheap out here and there, without affecting the performance <em>you</em> need.</li>
+          <li>Quality: Choose quality components: <em>(Note: Good cooling is often lacking in pre-built PCs!).</em></li>
+          <li>Customization: Tailor the PC to fit your specific needs, at the same time you can give it the looks you always dreamt about.</li>
+          <li> Upgradeability: Easier to upgrade individual components in the future, rather than buying a brand new one.</li>
+          <li>Cost-efficiency: This is where it gets interesting! You can cheap out here and there, without affecting the performance <em>you</em> need.</li>
         </ul>
         <h2 id="image-header">I mean, look at these beauties <i class="fa-regular fa-heart"></i></h2>
         <div class="main-images">
@@ -67,44 +63,40 @@
           <p class="h2-paragraphs">Building a PC may seem like a hassle, but it's really simple when you break it down to its essential components!</p>
         </div>
         <ul>
-          <label for="cpu" class="labels">Processor (CPU):</label>
-          <li id="cpu" name="cpu" class="list-item">
-            <span class="item-text">The "brain" of the computer.</span>
+          <li class="list-item">
+            <span class="item-text">Processor (CPU): The "brain" of the computer.</span>
             <div class="list-image">
               <img src="../pp-1/assets/images/cpu-pexels.jpg" alt="Processor" loading="lazy"> <!--Credit to Pexels-->
             </div>
           </li>
-          <label for="mb" class="labels">Motherboard:</label>
-          <li id="mb" name="mb" class="list-item">
-            <span class="item-text">The main circuit board that connects all components.</span>
+          <li class="list-item">
+            <span class="item-text">Motherboard: The main circuit board that connects all components.</span>
             <div class="list-image">
               <img src="../pp-1/assets/images/andrey-matveev-MB.jpg" alt="Motherboard" loading="lazy"> <!--Credit to Andrey Matveev -->
             </div>
           </li>
-          <label for="gpu" class="labels">Graphics Card (GPU):</label>
-          <li id="gpu" name="gpu" class="list-item">
-            <span class="item-text">Necessary for gaming and video editing.</span>
+          
+          <li class="list-item">
+            <span class="item-text">Graphics Card (GPU): Necessary for gaming and video editing.</span>
             <div class="list-image">
               <img src="../pp-1/assets/images/gpu-pexels.jpg" alt="Graphics card" loading="lazy"> <!--Credit to Pexels-->
             </div>
           </li>
-          <label for="ram" class="labels">Random Access Memory (RAM):</label>
-          <li id="ram" name="ram" class="list-item">
-            <span class="item-text">Random Access Memory for temporary data storage while the computer is working.</span>
+          
+          <li class="list-item">
+            <span class="item-text">RAM: Random Access Memory for temporary data storage while the computer is working.</span>
             <div class="list-image">
               <img src="../pp-1/assets/images/delta-group.png" alt="Random access memory" loading="lazy"> <!--Credit to Team Delta Group-->
             </div>
           </li>
-          <label for="storage" class="labels">Hard Drive Or Solid State Drive:</label>
-          <li id="storage" name="storage" class="list-item">
-            <span class="item-text">HDDs are mechanical disks to store permanent data, SSDs are microchips with working memory to store data,<br> no mechanical parts.</span>
+          <li class="list-item">
+            <span class="item-text">Hard Disk Drives and SSD: SSD is the way to go these days, fast reliable storage.</span>
             <div class="list-image">
-              <img src="../pp-1/assets/images/ssd.jpg" alt="SSD" loading="lazy" class="list-image"><!--Credit to Intel-->
+              <img src="../pp-1/assets/images/ssd.jpg" alt="SSD" loading="lazy"><!--Credit to Intel-->
             </div>
           </li>
-          <label for="psu" class="labels">Power Supply Unit (PSU):</label>
-          <li id="psu" name="psu" class="list-item">
-            <span class="item-text">Provides electricity to the PC, very important not to cheap out on.</span>
+          <li class="list-item">
+            <span class="item-text">Power Supply Unit (PSU): Provides electricity to the PC, very important not to cheap out on.</span>
             <div class="list-image">
               <img src="../pp-1/assets/images/PSU.jpg" alt="PSU" loading="lazy"><!--Credit to Unsplash-->
             </div>
@@ -114,6 +106,7 @@
     </section>
     <!-- Trivia Section -->
     <section id="trivia" class="section-style">
+		 <div class="container">
       <h2>Fun Trivia about computing</h2>
       <ul>
         <li>Intel introduced the first microprocessor in 1974.</li>
@@ -122,9 +115,11 @@
         <li>The famous name "Windows" was originally called "Interface Manager"</li>
         <li>The first computer mouse was made out of wood.</li>
       </ul>
+		 </div>
     </section>
     <!-- Courses Section -->
     <section id="courses" class="section-style">
+		 <div class="container">
       <h2>Our Courses</h2>
       <p>We provide a variety of courses for you to explore, all free of charge.</p>
       <ul>
@@ -145,30 +140,34 @@
         </select>
         <input type="submit" value="Submit">
       </form>
+		 </div>
     </section>
     <!-- Online learning section -->
     <section id="online" class="section-style">
+		 <div class="container">
       <div id="videos">
         <h2>Online Learning</h2>
         <p>We understand that everyone can't attend in person, that's okay. Internet was invented for a reason! Below you can find a few videos and also links to our personal favourite creators.</p>
         <div class="creators">
           <h3>JayzTwoCents</h3>
           <p>In this video he covers almost all of the reasons to why you should learn this stuff.</p>
-          <iframe width="300" height="215" src="https://www.youtube.com/embed/BQ308X5_xn4" title="How to choose the right PC parts..." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="300" height="215" src="https://www.youtube.com/embed/BQ308X5_xn4" title="How to choose the right PC parts..." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="creators">
           <h3>Gamers Nexus</h3>
           <p>This guy is a true professional, a lot of studies and testing ahead of every video.</p>
-          <iframe width="300" height="215" src="https://www.youtube.com/embed/w8kprUGy57E" title="Alienware Can&#39;t Get It Right - R15 2023 Pre-Built Gaming PC Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="300" height="215" src="https://www.youtube.com/embed/w8kprUGy57E" title="Alienware Can&#39;t Get It Right - R15 2023 Pre-Built Gaming PC Review" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="creators">
           <h3>Jarrod's Laptops</h3>
           <p>We are not huge fans of laptops, but they are however very necessary in our day to day life. Jarrod here is the one we listen to before making a new purchase. Here is a video of one of his reviews.</p>
-          <iframe width="300" height="215" src="https://www.youtube.com/embed/l8O_8sp2jow" title="Acer Helios Neo 16 - 7 Problems You Need To Know!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="300" height="215" src="https://www.youtube.com/embed/l8O_8sp2jow" title="Acer Helios Neo 16 - 7 Problems You Need To Know!" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
+		 </div>
     </section>
     <section id="contact" class="section-style">
+		 <div class="container">
       <h2>Contact Us</h2>
       <p>If you have any questions or would like to reach out, feel free to contact us through any of the following means:</p>
       <!-- Contact form -->
@@ -187,13 +186,16 @@
       <!-- Socials -->
       <h3>Follow Us!</h3>
       <p><a href="#" target="_blank">Twitter</a> | <a href="#" target="_blank">Facebook</a> | <a href="#" target="_blank">LinkedIn</a></p>
+		 </div>
     </section>
     <section id="about" class="section-style">
+		 <div class="container">
       <!-- Credit to GPT-4 for the meticulous writing skills -->
       <h2>This Is PCB</h2>
       <p>Founded in 2023, ThePCBlueprint started with a simple mission: to make the complex world of PC building accessible to everyone. We believe that technology should be empowering, not overwhelming.</p>
       <p>Our team of dedicated tech enthusiasts spends countless hours testing components, investigating new builds, and guiding newbies through the magical world of personal computing.</p>
       <p>We're proud to have helped over 10,000 students build their dream PCs, and we are just getting started!</p>
+		 </div>
     </section>
     <footer>
       <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
