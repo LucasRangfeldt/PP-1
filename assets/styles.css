@@ -74,8 +74,8 @@ header {
     background-color: #306BAC;
 }
 /* media queries max-width 480 */
-@media (max-width: 768px) {
- li.list-item img {
+@media (max-width: 480px) {
+ div.list-image img {
     max-height: 200px;
     object-fit: cover;
  }
