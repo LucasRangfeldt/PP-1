@@ -131,5 +131,28 @@ li {
     border-radius: 10px;
 }
 
+/* list images for the essentials */
+
+.list-item {
+    display: flex;
+    align-items: center;
+}
+
+.item-text {
+    flex: 1;
+}
+
+/* image container */
+.list-image {
+    height: 150px;
+    width: auto;
+    max-width: 300px;
+}
+
+.list-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
 
