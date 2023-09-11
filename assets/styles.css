@@ -24,6 +24,14 @@ h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: lighter;
     margin: 0;
+    padding: 0;
+}
+.h2-style {
+    margin: 0 0 1em 0;
+}
+.p-style {
+    margin: 0 0 1em 0;
+    color: #306BAC;
 }
 
 /* header style */
@@ -83,14 +91,8 @@ header {
 }
 
 /* all h2 styling */
-.header2-text {
-    margin: 0 auto;
-
-}
-
-.h2-paragraphs {
-    color: #333333;
-    margin: 0 0 1em 0;
+h2 {
+    margin: 0 0 0 0;
 }
 /* list styling for all lists */
 ul {
@@ -104,6 +106,9 @@ li {
 
 
 /* Main images */
+#image-header {
+    font-size: 1.2em;
+}
 .main-images {
     display: flex;
     justify-content: space-between;
@@ -181,7 +186,7 @@ li {
     background-color: #fff;
 }
 #form-header {
-   margin: 0 0 0.5em 0;
+   margin: 0 16px 10px 0;
 }
 /* Form style*/
 #course-form label,
@@ -191,6 +196,7 @@ li {
     margin: 0 0 0.5em 0;
     padding: 0.2em;
     width: 100%;
+    font-size: 1em;
 }
 
 #course-form input[type="submit"] {
@@ -200,12 +206,13 @@ li {
     padding: 12px 24px;
     cursor: pointer;
     border-radius: 4px;
+    margin: 0 0 0.5em 0;
 }
 
 
 /* Online Learning */
-.creators, h3, p {
-    margin: 1em;
+.creators, h3 {
+    margin-bottom: 1em;
 }
 .creators-iframe {
     position: relative;
@@ -219,4 +226,16 @@ li {
     width: 100%;
     height: 100%;
     border: 0;
+}
+
+/* contact us styling */
+#contact-form label,
+#contact-form input,
+#contact-form textarea {
+    display: block;
+    margin: 0 0 0.5em 0;
+    padding: 0.2em;
+    width: 30%;
+    font-size: 1em;
+
 }
