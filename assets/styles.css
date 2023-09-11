@@ -13,7 +13,7 @@ body {
     line-height: 1.5;
     background-color: #F5FCFF;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     width: 100%;
 }
 
@@ -149,10 +149,22 @@ li {
 
 .list-image img {
     width: 100%;
-    max-height: 400px;
+    max-height: 500px;
     object-fit: cover;
 }
+/* Trivia section */
+.trivia-container {
+    position: relative;
+    flex-basis: 80%;
+    max-width: 100%;
+    height: auto;
 
+}
+.trivia-container img {
+    width: 100%;
+    max-height: 750px;
+    object-fit: cover;
+}
 
 /* Online Learning */
 .creators, h3, p {
