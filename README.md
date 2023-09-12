@@ -4,7 +4,7 @@ The PCblueprint is an imaginary site where you can sign up for courses regarding
 You can also find an online learning section if you just want to dive a little deeper on your own.
 This site is targeted toward gamers, editors and enthusiasts.
 
-![The site on different devices](responsive.png)
+![The site on different devices](../pp-1/assets/images/responsive.png)
 
 ## Features
 
@@ -23,44 +23,44 @@ regarding tips and tricks for building and buying computers.
 The first section is a list of reasons why you should take the time to learn building your own PC. Along with three images
 that display complete builds by true professionals.
 
-![First section](first1.png)
+![First section](../pp-1/assets/images/first1.png)
 
 ## The essentials
 
 The second section on the site is called the essentials. Here you will find what all the components necessary for building
 are called and also a little bit about what they do, along with a big image for each component.
 
-![Second section](second1.png)
+![Second section](../pp-1/assets/images/second1.png)
 
 ## Trivia
 
 The third section is called Trivia, here you can get a sneak-peek of what the Beginner102 course offers, computer history.
 
-![Third section](third1.png)
+![Third section](../pp-1/assets/images/third1.png)
 
 ## Our courses
 
 The forth section displays the three courses offered and also contains the form to signing up.
 
-![Fourth section](fourth1.png)
+![Fourth section](../pp-1/assets/images/fourth1.png)
 
 ## Online learning
 
 The fifth section is called online learning, here you can find relevant videos if you want to dive deeper on your own.
 
-![Fifth section](fifth1.png)
+![Fifth section](../pp-1/assets/images/fifth1.png)
 
 ## Contact us and This is PCB
 
 The last two sections are related, one where you can send a message if you have a question. The other one is a short info section.
 
-![Final sections](final1.png)
+![Final sections](../pp-1/assets/images/final1.png)
 
 ## Footer
 
 The footer contains links to social media accounts that opens in a new tab. Also an up arrow that will take you to the beginning of the page.
 
-![Footer](footer1.png)
+![Footer](../pp-1/assets/images/footer1.png)
 
 ## Validator testing
 
