@@ -4,7 +4,7 @@ The PCblueprint is an imaginary site where you can sign up for courses regarding
 You can also find an online learning section if you just want to dive a little deeper on your own.
 This site is targeted toward gamers, editors and enthusiasts.
 
-![The site on different devices](../pp-1/assets/images/responsive.png)
+![The site on different devices](assets/images/responsive.png)
 
 ## Features
 
